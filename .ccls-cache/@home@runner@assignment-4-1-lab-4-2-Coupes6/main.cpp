@@ -12,6 +12,10 @@
 //** Input Validation : Input must be a positive integer.
 //**    If we have negative input, just quit the program.
 
+#include <iomanip>
+#include <iostream>
+using namespace std;
+
 int main() {
   const double PERC19 = 0.2;
   const double PERC49 = 0.3;
